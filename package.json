@@ -1,5 +1,5 @@
 {
-  "name": "ua2obj",
+  "name": "ua2obj_cliff",
   "version": "1.0.0",
   "description": "将浏览器中的UserAgrent转换为用户设备对象",
   "main": "index.ts",
