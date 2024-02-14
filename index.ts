@@ -31,7 +31,7 @@ let deviceReg:IDeviceReg = {
   iPad: /iPad/,
   Android: /Android/,
   Windows: /Windows/,
-  Mac: /Macintosh/,
+  Mac: /Macintosh|Mac OS X/,
 }
 
 export default () => {
@@ -83,6 +83,10 @@ export default () => {
       }
     }
   }
+
+  
+  console.log(userAgentObj,'????');
+  
   
   return userAgentObj
 }
